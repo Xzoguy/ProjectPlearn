@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<title>Plern Plern</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<style>
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+
+</style>
+<head>
+</head>
+<body>
+  <div class="w3-bar w3-pale-red">
+    <a href="index.html" class="w3-bar-item w3-button"><i class="fas fa-home"></i></a>
+  </div>
+<!-- Sidebar -->
+<div class="w3-sidebar w3-blue  w3-bar-block" style="width:15%">
+  <h3 class="w3-bar-item">Menu</h3>
+  <a href="personal.html" class="w3-bar-item w3-button">ข้อมูลส่วนตัว</a>
+  <a href="ChangePassword.html" class="w3-bar-item w3-button">เปลี่ยนรหัสผ่าน</a>
+  <a href="OrderCustomer.html" class="w3-bar-item w3-button">การสั่งซื้อสินค้า</a>
+  <a href="index.html" class="w3-bar-item w3-button">ออกจากระบบ</a>
+</div>
+<div style="margin-left:15%">
+
+  <div class="w3-container w3-margin">
+  <h1><center>การสั่งซื้อสินค้า</center></h1><br>
+  <table class="w3-table-all">
+    <thead>
+      <tr class="w3-pink">
+        <th>หมายเลขการสั่งซื้อ</th>
+        <th>วันที่สั่งซื้อ</th>
+        <th>สถานะการชำระเงิน</th>
+        <th>ใบเสร็จชำระเงิน</th>
+        <th>แจ้งการชำระเงิน</th>
+
+      </tr>
+    </thead>
+    <tr class="w3-hover-black">
+      <td><a href="OrderExam.html">001</a></td>
+      <td>21/12/62</td>
+      <td>ชำระแล้ว</td>
+      <td><a href="bill.html">bill001</a></td>
+      <td>
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+
+          <input type="file" name="fileToUpload" id="fileToUpload">
+
+        </form>
+      </td>
+
+    </tr>
+
+  </table>
+
+  </div>
+
+</body>
+</html>

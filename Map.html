@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<title>Plern Plern</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+<style>
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+input[type=text], select, textarea {
+    width: 40%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+}
+body {background-color:dodgerblue; }
+</style>
+<head>
+</head>
+<body>
+  <div class="w3-top">
+    <div class="w3-bar w3-pale-red">
+      <a href="personal.html" class="w3-bar-item w3-button">ข้อมูลส่วนตัว</a>
+      <a href="ChangePassword.html" class="w3-bar-item w3-button">เปลี่ยนรหัสผ่าน</a>
+      <a href="OrderCustomer.html" class="w3-bar-item w3-button">การสั่งซื้อสินค้า</a>
+      <a href="index.html" class="w3-bar-item w3-button">ออกจากระบบ</a>
+      <a href="index.html" class="w3-bar-item w3-button w3-right"><i class="fas fa-home fa-2x "></i></a>
+    </div>
+  </div>
+
+
+  <div class="w3-container w3-white" style="margin:5%;">
+    <div class="w3-margin w3-card-4">
+
+    <h1><center>แผนที่</center></h1><br>
+
+    <center><iframe src="https://www.google.com/maps/d/embed?mid=1KZbHmBFxOfkIEjohSDDcEN2mfZWm0mm8" width="640" height="480"></iframe></center>
+
+
+
+    </div>
+  </div>
+
+</body>
+</html>
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
